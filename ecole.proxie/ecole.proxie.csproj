@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Voxel.Core.Text.N11N">
+      <HintPath>..\..\..\..\Desktop\src\Web\Taxecure.Web.Proxies\bin\Debug\Voxel.Core.Text.N11N (3).dll</HintPath>
+    </Reference>
+    <Reference Include="Voxel.Services.Helpers.WCF">
+      <HintPath>..\..\..\..\Desktop\src\Web\Taxecure.Web.Proxies\bin\Debug\Voxel.Services.Helpers.WCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Voxel.Standards">
+      <HintPath>..\..\..\..\Desktop\src\Web\Taxecure.Web.Proxies\bin\Debug\Voxel.Standards.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
