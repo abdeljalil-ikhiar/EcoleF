@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("ecoleProxie")]
+[assembly: AssemblyTitle("pro.eco")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ecoleProxie")]
+[assembly: AssemblyProduct("pro.eco")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("01bb3f00-f87b-4eb5-8795-3669bf2eb878")]
+[assembly: Guid("d77fb391-f3c8-467a-beed-5f257a58429e")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

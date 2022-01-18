@@ -1,11 +1,10 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ecole.modeles
+namespace mod.eco
 {
     public class User
     {
@@ -32,5 +31,12 @@ namespace ecole.modeles
         public string statut { get; set; }
         public Role Role { get; set; }
 
+    }
 }
+
+namespace mod.eco
+{
+    public class IAccountServices
+    {
+    }
 }

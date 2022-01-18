@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ecole.modeles
+namespace mod.eco
 {
     public class Role
     {

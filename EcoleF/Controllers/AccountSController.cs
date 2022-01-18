@@ -1,17 +1,18 @@
-﻿using Ecole.proxies.Users;
+﻿
+using ecoleProxie;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 
 namespace EcoleF.Controllers
 {
-    public class AccountController : Controller
+    public class AccountSController : Controller
     {
+        // GET: AccountS
         private readonly IAccountServices Account;
-        public AccountController(IAccountServices Account)
+        public AccountSController(IAccountServices Account)
         {
             this.Account = Account;
         }
@@ -24,7 +25,7 @@ namespace EcoleF.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(Ecole.proxies.Users.User user)
+        public ActionResult Login(User user)
         {
             if (this.Account.Login(user))
             {
@@ -44,10 +45,5 @@ namespace EcoleF.Controllers
             return Redirect("Index");
         }
 
-
-        public ActionResult loginView()
-        {
-            return View();
-        }
     }
 }
